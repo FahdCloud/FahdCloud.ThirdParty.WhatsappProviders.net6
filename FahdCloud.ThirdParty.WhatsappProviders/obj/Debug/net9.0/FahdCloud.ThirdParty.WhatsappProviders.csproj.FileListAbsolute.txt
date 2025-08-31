@@ -1,0 +1,13 @@
+E:\Work\Libraries\FahdCloud.ThirdParty.WhatsappProviders\FahdCloud.ThirdParty.WhatsappProviders\bin\Debug\net9.0\FahdCloud.ThirdParty.WhatsappProviders.deps.json
+E:\Work\Libraries\FahdCloud.ThirdParty.WhatsappProviders\FahdCloud.ThirdParty.WhatsappProviders\bin\Debug\net9.0\FahdCloud.ThirdParty.WhatsappProviders.dll
+E:\Work\Libraries\FahdCloud.ThirdParty.WhatsappProviders\FahdCloud.ThirdParty.WhatsappProviders\bin\Debug\net9.0\FahdCloud.ThirdParty.WhatsappProviders.pdb
+E:\Work\Libraries\FahdCloud.ThirdParty.WhatsappProviders\FahdCloud.ThirdParty.WhatsappProviders\obj\Debug\net9.0\FahdCloud.ThirdParty.WhatsappProviders.csproj.AssemblyReference.cache
+E:\Work\Libraries\FahdCloud.ThirdParty.WhatsappProviders\FahdCloud.ThirdParty.WhatsappProviders\obj\Debug\net9.0\FahdCloud.ThirdParty.WhatsappProviders.GeneratedMSBuildEditorConfig.editorconfig
+E:\Work\Libraries\FahdCloud.ThirdParty.WhatsappProviders\FahdCloud.ThirdParty.WhatsappProviders\obj\Debug\net9.0\FahdCloud.ThirdParty.WhatsappProviders.AssemblyInfoInputs.cache
+E:\Work\Libraries\FahdCloud.ThirdParty.WhatsappProviders\FahdCloud.ThirdParty.WhatsappProviders\obj\Debug\net9.0\FahdCloud.ThirdParty.WhatsappProviders.AssemblyInfo.cs
+E:\Work\Libraries\FahdCloud.ThirdParty.WhatsappProviders\FahdCloud.ThirdParty.WhatsappProviders\obj\Debug\net9.0\FahdCloud.ThirdParty.WhatsappProviders.csproj.CoreCompileInputs.cache
+E:\Work\Libraries\FahdCloud.ThirdParty.WhatsappProviders\FahdCloud.ThirdParty.WhatsappProviders\obj\Debug\net9.0\FahdCloud.ThirdParty.WhatsappProviders.dll
+E:\Work\Libraries\FahdCloud.ThirdParty.WhatsappProviders\FahdCloud.ThirdParty.WhatsappProviders\obj\Debug\net9.0\refint\FahdCloud.ThirdParty.WhatsappProviders.dll
+E:\Work\Libraries\FahdCloud.ThirdParty.WhatsappProviders\FahdCloud.ThirdParty.WhatsappProviders\obj\Debug\net9.0\FahdCloud.ThirdParty.WhatsappProviders.pdb
+E:\Work\Libraries\FahdCloud.ThirdParty.WhatsappProviders\FahdCloud.ThirdParty.WhatsappProviders\obj\Debug\net9.0\ref\FahdCloud.ThirdParty.WhatsappProviders.dll
+E:\Work\Libraries\FahdCloud.ThirdParty.WhatsappProviders\FahdCloud.ThirdParty.WhatsappProviders\obj\Debug\net9.0\FahdCloud.ThirdParty.WhatsappProviders.sourcelink.json

@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>FahdCloud.ThirdParty.WhatsappProviders</id>
+    <version>1.0.11</version>
+    <title>FahdCloud.ThirdParty.WhatsappProviders</title>
+    <authors>FahdCloud.ThirdParty.WhatsappProviders</authors>
+    <readme>README.md</readme>
+    <description>A .NET library that provides unified interfaces and implementations for integrating with various WhatsApp service providers. This library simplifies sending WhatsApp messages through third-party providers like Ultramsg, WASender, Whats360, and WABotMaster with a consistent API.</description>
+    <tags>.NET C# WhatsApp WhatsappIntegration Ultramsg WASender Whats360 WABotMaster DependencyInjection AsyncProgramming MessagingAPI MediaSupport NuGet MicrosoftExtensions HttpClient MessageStatus Caching</tags>
+    <repository type="git" commit="aad7d26e0a57bf8d3cee5480973001631163e71e" />
+    <dependencies>
+      <group targetFramework="net9.0">
+        <dependency id="Microsoft.Extensions.Caching.Memory" version="9.0.6" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.DependencyInjection.Abstractions" version="9.0.6" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Http" version="9.0.6" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Options.ConfigurationExtensions" version="9.0.6" exclude="Build,Analyzers" />
+        <dependency id="Newtonsoft.Json" version="13.0.3" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="E:\Work\Libraries\FahdCloud.ThirdParty.WhatsappProviders\FahdCloud.ThirdParty.WhatsappProviders\bin\Debug\net9.0\FahdCloud.ThirdParty.WhatsappProviders.dll" target="lib\net9.0\FahdCloud.ThirdParty.WhatsappProviders.dll" />
+    <file src="E:\Work\Libraries\FahdCloud.ThirdParty.WhatsappProviders\README.md" target="\README.md" />
+  </files>
+</package>

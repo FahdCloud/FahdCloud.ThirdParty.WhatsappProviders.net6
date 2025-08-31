@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DeveloperToolsToolWindowSettingsV1" lastSelectedContentNodeId="json-schema-validator" pluginVersion="7.1.0">
+    <developerToolsConfigurations>
+      <developerToolConfiguration developerToolId="json-schema-validator" id="58a78e30-1ef3-4a6d-a09c-8c056296dc11" name="Workbench">
+        <properties>
+          <property key="dataText" type="INPUT" value="kotlin.String|{&#10;  &quot;id&quot; : &quot;201096950327@c.us&quot;,&#10;  &quot;name&quot; : &quot;Muhamed Medhat&quot;,&#10;  &quot;profile_picture&quot; : &quot;https://s3.eu-central-1.amazonaws.com/ultramsgmedia/2025/6/107496/bb64e4d50547965c8d53484df0a31892&quot;,&#10;  &quot;is_md&quot; : false,&#10;  &quot;is_business&quot; : true,&#10;  &quot;is_enterprise&quot; : false,&#10;  &quot;battery&quot; : &quot;&quot;,&#10;  &quot;battery_charging&quot; : &quot;&quot;,&#10;  &quot;wa_version&quot; : &quot;&quot;,&#10;  &quot;device&quot; : {&#10;    &quot;os_version&quot; : &quot;&quot;,&#10;    &quot;platform&quot; : &quot;smba&quot;,&#10;    &quot;manufacturer&quot; : &quot;&quot;,&#10;    &quot;model&quot; : &quot;&quot;&#10;  }&#10;}" />
+        </properties>
+      </developerToolConfiguration>
+    </developerToolsConfigurations>
+  </component>
+</project>

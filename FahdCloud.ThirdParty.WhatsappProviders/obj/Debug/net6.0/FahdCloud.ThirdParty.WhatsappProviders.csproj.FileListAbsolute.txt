@@ -1,0 +1,12 @@
+D:\Career\Work\Libraries\FahdCloud.ThirdParty.WhatsappProviders(.net6)\FahdCloud.ThirdParty.WhatsappProviders\bin\Debug\net6.0\FahdCloud.ThirdParty.WhatsappProviders.deps.json
+D:\Career\Work\Libraries\FahdCloud.ThirdParty.WhatsappProviders(.net6)\FahdCloud.ThirdParty.WhatsappProviders\bin\Debug\net6.0\FahdCloud.ThirdParty.WhatsappProviders.dll
+D:\Career\Work\Libraries\FahdCloud.ThirdParty.WhatsappProviders(.net6)\FahdCloud.ThirdParty.WhatsappProviders\bin\Debug\net6.0\FahdCloud.ThirdParty.WhatsappProviders.pdb
+D:\Career\Work\Libraries\FahdCloud.ThirdParty.WhatsappProviders(.net6)\FahdCloud.ThirdParty.WhatsappProviders\obj\Debug\net6.0\FahdCloud.ThirdParty.WhatsappProviders.csproj.AssemblyReference.cache
+D:\Career\Work\Libraries\FahdCloud.ThirdParty.WhatsappProviders(.net6)\FahdCloud.ThirdParty.WhatsappProviders\obj\Debug\net6.0\FahdCloud.ThirdParty.WhatsappProviders.GeneratedMSBuildEditorConfig.editorconfig
+D:\Career\Work\Libraries\FahdCloud.ThirdParty.WhatsappProviders(.net6)\FahdCloud.ThirdParty.WhatsappProviders\obj\Debug\net6.0\FahdCloud.ThirdParty.WhatsappProviders.AssemblyInfoInputs.cache
+D:\Career\Work\Libraries\FahdCloud.ThirdParty.WhatsappProviders(.net6)\FahdCloud.ThirdParty.WhatsappProviders\obj\Debug\net6.0\FahdCloud.ThirdParty.WhatsappProviders.AssemblyInfo.cs
+D:\Career\Work\Libraries\FahdCloud.ThirdParty.WhatsappProviders(.net6)\FahdCloud.ThirdParty.WhatsappProviders\obj\Debug\net6.0\FahdCloud.ThirdParty.WhatsappProviders.csproj.CoreCompileInputs.cache
+D:\Career\Work\Libraries\FahdCloud.ThirdParty.WhatsappProviders(.net6)\FahdCloud.ThirdParty.WhatsappProviders\obj\Debug\net6.0\FahdCloud.ThirdParty.WhatsappProviders.dll
+D:\Career\Work\Libraries\FahdCloud.ThirdParty.WhatsappProviders(.net6)\FahdCloud.ThirdParty.WhatsappProviders\obj\Debug\net6.0\refint\FahdCloud.ThirdParty.WhatsappProviders.dll
+D:\Career\Work\Libraries\FahdCloud.ThirdParty.WhatsappProviders(.net6)\FahdCloud.ThirdParty.WhatsappProviders\obj\Debug\net6.0\FahdCloud.ThirdParty.WhatsappProviders.pdb
+D:\Career\Work\Libraries\FahdCloud.ThirdParty.WhatsappProviders(.net6)\FahdCloud.ThirdParty.WhatsappProviders\obj\Debug\net6.0\ref\FahdCloud.ThirdParty.WhatsappProviders.dll
