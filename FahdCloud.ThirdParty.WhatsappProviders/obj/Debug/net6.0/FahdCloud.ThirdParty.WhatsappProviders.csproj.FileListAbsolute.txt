@@ -10,3 +10,4 @@ D:\Career\Work\Libraries\FahdCloud.ThirdParty.WhatsappProviders(.net6)\FahdCloud
 D:\Career\Work\Libraries\FahdCloud.ThirdParty.WhatsappProviders(.net6)\FahdCloud.ThirdParty.WhatsappProviders\obj\Debug\net6.0\refint\FahdCloud.ThirdParty.WhatsappProviders.dll
 D:\Career\Work\Libraries\FahdCloud.ThirdParty.WhatsappProviders(.net6)\FahdCloud.ThirdParty.WhatsappProviders\obj\Debug\net6.0\FahdCloud.ThirdParty.WhatsappProviders.pdb
 D:\Career\Work\Libraries\FahdCloud.ThirdParty.WhatsappProviders(.net6)\FahdCloud.ThirdParty.WhatsappProviders\obj\Debug\net6.0\ref\FahdCloud.ThirdParty.WhatsappProviders.dll
+D:\Career\Work\Libraries\FahdCloud.ThirdParty.WhatsappProviders(.net6)\FahdCloud.ThirdParty.WhatsappProviders\obj\Debug\net6.0\FahdCloud.ThirdParty.WhatsappProviders.sourcelink.json

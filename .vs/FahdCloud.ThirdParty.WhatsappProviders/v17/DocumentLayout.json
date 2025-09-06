@@ -1,7 +1,12 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "E:\\Work\\Libraries\\FahdCloud.ThirdParty.WhatsappProviders\\",
-  "Documents": [],
+  "WorkspaceRootPath": "D:\\Career\\Work\\Libraries\\FahdCloud.ThirdParty.WhatsappProviders(.net6)\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BA82933A-FAF8-4768-8D46-76B6F9F91BBD}|FahdCloud.ThirdParty.WhatsappProviders\\FahdCloud.ThirdParty.WhatsappProviders.csproj|d:\\career\\work\\libraries\\fahdcloud.thirdparty.whatsappproviders(.net6)\\fahdcloud.thirdparty.whatsappproviders\\fahdcloud.thirdparty.whatsappproviders.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{BA82933A-FAF8-4768-8D46-76B6F9F91BBD}|FahdCloud.ThirdParty.WhatsappProviders\\FahdCloud.ThirdParty.WhatsappProviders.csproj|solutionrelative:fahdcloud.thirdparty.whatsappproviders\\fahdcloud.thirdparty.whatsappproviders.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +14,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -22,6 +27,18 @@
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FahdCloud.ThirdParty.WhatsappProviders",
+              "DocumentMoniker": "D:\\Career\\Work\\Libraries\\FahdCloud.ThirdParty.WhatsappProviders(.net6)\\FahdCloud.ThirdParty.WhatsappProviders\\FahdCloud.ThirdParty.WhatsappProviders.csproj",
+              "RelativeDocumentMoniker": "FahdCloud.ThirdParty.WhatsappProviders\\FahdCloud.ThirdParty.WhatsappProviders.csproj",
+              "ToolTip": "D:\\Career\\Work\\Libraries\\FahdCloud.ThirdParty.WhatsappProviders(.net6)\\FahdCloud.ThirdParty.WhatsappProviders\\FahdCloud.ThirdParty.WhatsappProviders.csproj",
+              "RelativeToolTip": "FahdCloud.ThirdParty.WhatsappProviders\\FahdCloud.ThirdParty.WhatsappProviders.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-09-02T10:22:38.301Z",
+              "EditorCaption": ""
             }
           ]
         }
