@@ -265,7 +265,7 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
-      "FahdCloud.ThirdParty.WhatsappProviders/6.0.0": {
+      "FahdCloud.ThirdParty.WhatsappProviders/6.0.2": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
@@ -648,7 +648,7 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "FahdCloud.ThirdParty.WhatsappProviders/6.0.0": {
+    "FahdCloud.ThirdParty.WhatsappProviders/6.0.2": {
       "type": "project",
       "path": "../FahdCloud.ThirdParty.WhatsappProviders/FahdCloud.ThirdParty.WhatsappProviders.csproj",
       "msbuildProject": "../FahdCloud.ThirdParty.WhatsappProviders/FahdCloud.ThirdParty.WhatsappProviders.csproj"
@@ -656,13 +656,11 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "FahdCloud.ThirdParty.WhatsappProviders >= 6.0.0"
+      "FahdCloud.ThirdParty.WhatsappProviders >= 6.0.2"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Muhamed Medhat\\.nuget\\packages\\": {},
-    "C:\\Program Files\\DevExpress 24.1\\Components\\Offline Packages": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\Muhamed\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
@@ -670,25 +668,16 @@
       "projectUniqueName": "D:\\Career\\Work\\Libraries\\FahdCloud.ThirdParty.WhatsappProviders(.net6)\\Test\\Test.csproj",
       "projectName": "Test",
       "projectPath": "D:\\Career\\Work\\Libraries\\FahdCloud.ThirdParty.WhatsappProviders(.net6)\\Test\\Test.csproj",
-      "packagesPath": "C:\\Users\\Muhamed Medhat\\.nuget\\packages\\",
+      "packagesPath": "C:\\Users\\Muhamed\\.nuget\\packages\\",
       "outputPath": "D:\\Career\\Work\\Libraries\\FahdCloud.ThirdParty.WhatsappProviders(.net6)\\Test\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\DevExpress 24.1\\Components\\Offline Packages",
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Muhamed Medhat\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 24.1.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\Muhamed\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\DevExpress 24.1\\Components\\System\\Components\\Packages": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -711,7 +700,7 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "9.0.300"
+      "SdkAnalysisLevel": "10.0.100"
     },
     "frameworks": {
       "net6.0": {
@@ -750,7 +739,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Users\\Muhamed\\.dotnet\\sdk\\10.0.103\\RuntimeIdentifierGraph.json"
       }
     }
   }

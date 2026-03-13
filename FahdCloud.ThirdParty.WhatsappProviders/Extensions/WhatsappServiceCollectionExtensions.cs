@@ -36,9 +36,11 @@ namespace FahdCloud.ThirdParty.WhatsappProviders.Extensions
             services.AddScoped<IUltramsgService, UltramsgService>();
             services.AddScoped<IWABotMasterService, WABotMasterService>();
             services.AddScoped<IWASenderService, WASenderService>();
-            services.AddScoped<IWhats360CrmService, Whats360CrmService>();
-            services.AddScoped<IElwhatsService, ElwhatsService>();
             services.AddScoped<IWhats360Service, Whats360Service>();
+            services.AddScoped<IWhats360V2Service, Whats360V2Service>();
+            services.AddScoped<IWhats360CrmService, Whats360CrmService>();
+            services.AddScoped<IWhats360ProService, Whats360ProService>();
+            services.AddScoped<IElwhatsService, ElwhatsService>();
 
             return services;
         }
