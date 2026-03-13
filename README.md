@@ -4,7 +4,7 @@ A .NET library that provides unified interfaces and implementations for integrat
 
 ## Features
 
-- 🔌 **Multiple Provider Support** - Support for Ultramsg, WASender, Whats360, and WABotMaster
+- 🔌 **Multiple Provider Support** - Support for Ultramsg, WASender, Whats360, Whats360 Pro and WABotMaster
 - 💾 **Built-in Caching** - Memory caching support for improved performance
 - 🏗️ **Dependency Injection Ready** - Seamless integration with Microsoft.Extensions.DependencyInjection
 - ⚙️ **Configuration Support** - Easy configuration through Microsoft.Extensions.Options
@@ -16,6 +16,7 @@ A .NET library that provides unified interfaces and implementations for integrat
 - **Ultramsg** - WhatsApp Business API provider
 - **WASender** - WhatsApp messaging service
 - **Whats360** - WhatsApp API platform
+- **Whats360 Pro** - Professional WhatsApp Messaging API
 - **WABotMaster** - WhatsApp automation service
 
 ## Installation
@@ -44,6 +45,7 @@ builder.Services.AddWhatsappProviders();
 builder.Services.Configure<UltramsgSettings>(builder.Configuration.GetSection("UltramsgSettings"));
 builder.Services.Configure<WASenderSettings>(builder.Configuration.GetSection("WASenderSettings"));
 builder.Services.Configure<Whats360Settings>(builder.Configuration.GetSection("Whats360Settings"));
+builder.Services.Configure<Whats360ProSetting>(builder.Configuration.GetSection("Whats360ProSettings"));
 builder.Services.Configure<WABotMasterSettings>(builder.Configuration.GetSection("WABotMasterSettings"));
 ```
 
@@ -63,6 +65,10 @@ Add your WhatsApp provider settings to your `appsettings.json`:
   "Whats360Settings": {
     "ApiKey": "your-whats360-api-key",
     "BaseUrl": "https://api.whats360.com"
+  },
+  "Whats360ProSettings": {
+    "Token": "your-whats360-pro-token",
+    "InstanceId": "your-instance-id"
   },
   "WABotMasterSettings": {
     "ApiKey": "your-wabotmaster-api-key",
@@ -169,13 +175,46 @@ public class Whats360MessageService
     // Send text message
     public async Task SendTextMessageAsync(string phoneNumber, string message)
     {
-        var result = await _whats360Service.SendTextMessageAsync(phoneNumber, message);
-        if (result.IsSuccess)
+        var result = await _whats360Service.SendTextMessageAsync(Settings, phoneNumber, message);
+        if (result.isSuccess)
         {
-            Console.WriteLine($"Message sent via Whats360: {result.MessageId}");
+            Console.WriteLine($"Message sent via Whats360: {result.meessage}");
         }
     }
 
+}
+
+### Whats360 Pro Provider
+```csharp
+public class Whats360ProMessageService
+{
+    private readonly IWhats360ProService _whats360ProService;
+    private readonly Whats360ProSetting _settings = new() { Token = "token", InstanceId = "id" };
+
+    public Whats360ProMessageService(IWhats360ProService whats360ProService)
+    {
+        _whats360ProService = whats360ProService;
+    }
+
+    // Send text message
+    public async Task SendTextMessageAsync(string jid, string message)
+    {
+        var result = await _whats360ProService.SendMessageAsync(_settings, jid, message);
+        if (result.isSuccess)
+        {
+            Console.WriteLine($"Message sent via Whats360 Pro: {result.meessage}");
+        }
+    }
+
+    // Send image
+    public async Task SendImageAsync(string jid, string imageUrl, string caption)
+    {
+        var result = await _whats360ProService.SendMediaMessageAsync(_settings, jid, imageUrl, EnumWhats360ProMediaType.image, caption);
+        if (result.isSuccess)
+        {
+            Console.WriteLine($"Image sent via Whats360 Pro");
+        }
+    }
 }
 ```
 
@@ -217,6 +256,7 @@ builder.Services.AddWhatsappProviders();
 builder.Services.Configure<UltramsgSettings>(builder.Configuration.GetSection("UltramsgSettings"));
 builder.Services.Configure<WASenderSettings>(builder.Configuration.GetSection("WASenderSettings"));
 builder.Services.Configure<Whats360Settings>(builder.Configuration.GetSection("Whats360Settings"));
+builder.Services.Configure<Whats360ProSetting>(builder.Configuration.GetSection("Whats360ProSettings"));
 builder.Services.Configure<WABotMasterSettings>(builder.Configuration.GetSection("WABotMasterSettings"));
 
 // Add your application services
@@ -230,17 +270,20 @@ public class NotificationService : INotificationService
     private readonly IUltramsgService _ultramsgService;
     private readonly IWASenderService _waSenderService;
     private readonly IWhats360Service _whats360Service;
+    private readonly IWhats360ProService _whats360ProService;
     private readonly IWABotMasterService _waBotMasterService;
 
     public NotificationService(
         IUltramsgService ultramsgService,
         IWASenderService waSenderService,
         IWhats360Service whats360Service,
+        IWhats360ProService whats360ProService,
         IWABotMasterService waBotMasterService)
     {
         _ultramsgService = ultramsgService;
         _waSenderService = waSenderService;
         _whats360Service = whats360Service;
+        _whats360ProService = whats360ProService;
         _waBotMasterService = waBotMasterService;
     }
 
@@ -251,8 +294,9 @@ public class NotificationService : INotificationService
             var result = provider switch
             {
                 WhatsAppProvider.Ultramsg => await _ultramsgService.SendTextMessageAsync(phoneNumber, message),
-                WhatsAppProvider.WASender => await _waSenderService.SendTextMessageAsync(phoneNumber, message),
-                WhatsAppProvider.Whats360 => await _whats360Service.SendTextMessageAsync(phoneNumber, message),
+                WhatsAppProvider.WASender => await _waSenderService.SendMessageAsync(new WASenderSetting(), phoneNumber, message),
+                WhatsAppProvider.Whats360 => await _whats360Service.SendMessageAsync(new Whats360Setting(), phoneNumber, message),
+                WhatsAppProvider.Whats360Pro => await _whats360ProService.SendMessageAsync(new Whats360ProSetting(), phoneNumber, message),
                 WhatsAppProvider.WABotMaster => await _waBotMasterService.SendTextMessageAsync(phoneNumber, message),
                 _ => throw new ArgumentException($"Unsupported provider: {provider}")
             };
